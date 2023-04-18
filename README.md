@@ -1,4 +1,7 @@
+Project link:- https://millaini85.github.io/restaurant-page/
+
 Restaurant Homepage Project
+
 In this project, I practice DOM manipulation by dynamically rendering a simple restaurant homepage using only JavaScript to generate the entire contents of the website.
 
 Features
