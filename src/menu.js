@@ -1,4 +1,5 @@
-// import double from './images/Menu/double-burger.jpg';
+import double from '../src/images/Menu/double-burger.jpg';
+import doubleBacon from '../src/images/Menu/double-bacon-burger.jpg'
 
 const menu = () => {
     return `
@@ -6,12 +7,12 @@ const menu = () => {
             <h1>Choose your burger.</h1>
             <div class="burger-photos-container">
                 <div class="burgers">
-                    <img class="menu-photos" src="../src/images/Menu/double-burger.jpg" alt="double burger">
+                    <img class="menu-photos" src="${double}" alt="double burger">
                     <p class="title">Double Burger</p>
                     <p class="price">£8.99</p>
                 </div>
                 <div class="burgers">
-                    <img class="menu-photos" src="../src/images/Menu/double-bacon-burger.jpg" alt="double bacon burger">
+                    <img class="menu-photos" src="${doubleBacon}" alt="double bacon burger">
                     <p class="title">Double Bacon Burger</p>
                     <p class="price">£9.99</p>
                 </div>
