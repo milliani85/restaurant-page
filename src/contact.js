@@ -6,7 +6,7 @@ import instaIcon from '../src/images/icons8-instagram.svg'
 
 const contact = () => {
     return `
-    <img class="contact-image" src="../src/images/pexels-adonyi-gábor-1400172.jpg" alt="">
+    <img class="contact-image" src="${footerImage}" alt="">
     <div class="contact-text-container">
         <h1>Contact Us</h1>
         <p>Maecenas fermentum tortor id fringilla molestie. In hac habitasse platea dictumst. Morbi maximus lobortis ipsum, ut
