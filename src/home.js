@@ -1,10 +1,16 @@
+import mainBurgerImage from '../src/images/pexels-valeria-boltneva-1639562.jpg'
 
+import footerImage from '../src/images/pexels-adonyi-gábor-1400172.jpg'
+
+import facebookIcon from '../src/images/icons8-facebook.svg'
+import twitterIcon from '../src/images/icons8-twitter.svg'
+import instaIcon from '../src/images/icons8-instagram.svg'
 
 const home = () => {
     return `
     <main>
         <section class="main-burger-container">      
-            <img class="main-burger-image" src="../src/images/pexels-valeria-boltneva-1639562.jpg" alt="photo of a tasty burger">
+            <img class="main-burger-image" src="${mainBurgerImage}" alt="photo of a tasty burger">
             <div class="main-text">
                 <h5>We're back!</h5>
                 <h1>Hotter, tastier and naughtier.</h1>
@@ -26,7 +32,7 @@ const home = () => {
         </section>
     </main>
     <footer>
-        <img class="footer-image" src="../src/images/pexels-adonyi-gábor-1400172.jpg" alt="photo of some salad ingredients">
+        <img class="footer-image" src="${footerImage}" alt="photo of some salad ingredients">
         <div class="footer-text">
             <p class="footer-title">Address</p>
             <p class="footer-para">123 High Street, AB12 3CD</p>
@@ -35,9 +41,9 @@ const home = () => {
             <p class="footer-title">Tel:</p>
             <p class="footer-para">01234 567890</p>
             <div class="socials">
-                <img src="../src/images/icons8-facebook.svg" alt="facebook icon">
-                <img src="../src/images/icons8-instagram.svg" alt="instagram icon">
-                <img src="../src/images/icons8-twitter.svg" alt="twitter icon">
+                <img src="${facebookIcon}" alt="facebook icon">
+                <img src="${instaIcon}" alt="instagram icon">
+                <img src="${twitterIcon}" alt="twitter icon">
             </div>
             <p class="copyright">Copyright ©2020 Pepe La Sunfay 6000 - All rights reserved</p>
         </div>
