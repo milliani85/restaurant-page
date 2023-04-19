@@ -1,10 +1,10 @@
-import mainBurgerImage from './images/pexels-valeria-boltneva-1639562.jpg';
+
 
 const home = () => {
     return `
     <main>
         <section class="main-burger-container">      
-            <img class="main-burger-image" src="${mainBurgerImage}" alt="photo of a tasty burger">
+            <img class="main-burger-image" src="../src/images/pexels-valeria-boltneva-1639562.jpg" alt="photo of a tasty burger">
             <div class="main-text">
                 <h5>We're back!</h5>
                 <h1>Hotter, tastier and naughtier.</h1>
