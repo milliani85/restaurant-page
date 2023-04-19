@@ -1,4 +1,4 @@
-Project link:- https://millaini85.github.io/restaurant-page/
+Project link:- https://milliani85.github.io/restaurant-page/
 
 Restaurant Homepage Project
 
