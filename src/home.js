@@ -1,4 +1,4 @@
-import mainBurgerImage from '../src/images/pexels-valeria-boltneva-1639562.jpg'
+import mainBurgerImage from '/src/images/pexels-valeria-boltneva-1639562.jpg'
 
 import footerImage from '../src/images/pexels-adonyi-gábor-1400172.jpg'
 
@@ -12,8 +12,8 @@ const home = () => {
         <section class="main-burger-container">      
             <img class="main-burger-image" src="${mainBurgerImage}" alt="photo of a tasty burger">
             <div class="main-text">
-                <h5>We're back!</h5>
-                <h1>Hotter, tastier and naughtier.</h1>
+                <h5>Welcome!</h5>
+                <h1>Authentic flavours, locally sourced.</h1>
                 <button class="menu-button">Menu</button>
             </div> 
         <section>
