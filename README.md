@@ -4,7 +4,7 @@ Restaurant Homepage Project
 
 In this project, I practice DOM manipulation by dynamically rendering a simple restaurant homepage using only JavaScript to generate the entire contents of the website.
 
-Features
+
 The restaurant homepage project consists of the following features:
 
 Bare-bones homepage with an image, headline, and some copy about the restaurant.
